@@ -1,0 +1,87 @@
+* {padding: 0px;
+   margin: 0px;}
+
+body {font-size: 1em;
+  		font-family: "Trebuchet MS", Helvetica, sans-serif; 
+  		background: #e6e6e6;}
+
+
+/* -------- Área do topo --------*/
+
+
+h1 {color: #4e4e4e;
+ 	 font-size: 2.5em;}
+
+#areamenu a:link, #areamenu a:visited {color: white;
+													padding: 8px 12px;
+													text-decoration: none;}
+
+#areamenu a:hover {color: #f7b600;
+						 background: white;}
+
+#areamenu {background: #f7b600;
+	   text-align: center;
+	   padding: 15px;}
+
+#logobranco {color: white;}
+
+#arealogo, #arealinks {padding: 10px;}
+
+/* -------- Fim área do topo --------*/
+
+/* ----------------------------------*/
+
+/* --------- Área principal ---------*/
+
+
+ h2 {color: #f7b600;}
+
+ hr {margin: 8px 0px;}
+
+#areaprincipal {width: 920px;
+					margin: 0px auto;
+					padding: 15px;}
+
+#areaconteudo {width: 660px;
+					float: left;}
+
+a:link, a:visited {color: #f7b600;
+						 text-decoration: none;}
+
+a:hover {text-decoration: underline;}
+
+#rodape {clear: both;
+			text-align: center;
+			background: #CCC;
+			padding: 15px;}
+
+.datapostagem {font-size: 0.8em;}
+
+.postagens {padding: 20px;
+				background: white;
+				margin-bottom: 20px}
+
+.espacolink {margin-top: 3px;
+				 display: block;}
+
+/* --------- Fim área principal ---------*/
+/* --------------------------------------*/
+/* ------------ Área lateral ------------*/
+
+h3 {background: #f7b600;
+	padding: 5px;
+	color: #4e4e4e;}
+
+#arealateral {width: 240px;
+				  float: right;}
+
+.conteudolateral {background: white;
+						padding: 10px;
+						margin-bottom: 20px;}
+
+.textolateral {font-size: 0.8em;
+					padding: 5px;}
+
+#arealateral hr {margin: 0px auto;}
+
+.divlinks {padding: 5px;}
