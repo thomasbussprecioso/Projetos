@@ -22,7 +22,7 @@ inicio
                    maior <- f[c]
                 fimse
                 
-                se (f[c] < menor) entao
+                se (f[c] < menor) e (f[c] <> 0) entao
                    menor <- f[c]
                 fimse
                 
