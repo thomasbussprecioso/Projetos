@@ -1,0 +1,137 @@
+html, body, #home {height: 100%;}	   
+
+body {background: url(../imagens/capa.png),
+				  url(../imagens/ruido.png),
+				  linear-gradient(50deg, #ff4169, #7c26f8);
+	  background-attachment: fixed;
+	  font-family: Helvetica, Arial, sans-serif;}
+
+nav.navbartransparente a {color: white;}
+
+nav.navbartransparente a:hover {color: #9bf0e1;}
+
+.navbartransparente {background: rgba(0, 0, 0, 0.6);
+					 padding: 15px 0;}
+
+
+/*Media queries*/	  
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	
+	.btn-custom {margin: 6px 0;}
+	header div.container {margin: 0 12px;}
+	
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+	h1 {font-size: 3em;}
+	.btn-custom {margin: 6px 0;}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+	h1 {font-size: 4em;}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+	h1 {font-size: 5em;}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+	h1 {font-size: 6em;}
+}
+
+/*Fim Media queries*/
+
+/*Principal*/
+
+h1 {font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+	color: white;}
+
+.btn-custom {text-transform: uppercase;
+			 border-radius: 50px;
+			 -webkit-border-radius: 50px;
+			 -moz-border-radius: 50px;
+			 padding: 10px 20px;
+			 color: white;
+			 transition: background 0.5s, color 0.5s;}
+
+.btn-roxo {background: #7c25f8;}
+
+.btn-roxo:hover {color: white;
+				 background: #6207e3;}
+
+.btn-branco {border: 2px solid white;}
+
+.btn-branco:hover {background-color: white;
+				   color: black;}
+
+/*FIM principal*/
+
+/*Início conteúdo 1*/
+
+.caixa {padding-top: 20px;
+		padding-bottom: 20px;}
+
+#conteudo1 {background-color: white;}
+
+#conteudo1 h2, h3 {color: #7c25f8;}			
+
+h2 {font-size: 3em;
+	font-weight: 700;
+	letter-spacing: -0.04em;}
+
+h3 {font-size: 2em;
+	font-weight: 700;
+	letter-spacing: -0.04em;}
+
+.albuns {padding: 10px 0;}
+
+/*Fim conteúdo 1*/
+
+/*Início conteúdo 2*/
+
+#conteudo2 p {color: white;}
+
+#conteudo2 h2 {color: white;}
+
+#conteudo2 h3 {color: #9bf0e1;}
+
+.rotacionar {-ms-transform:rotate(30deg); /* IE 9 */
+			 -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+			 transform: rotate(30deg);
+			 padding-left: 80px;}
+
+/*Fim conteúdo 2*/
+
+/* Início rodapé */		 
+
+footer {background: black;
+		position: relative;
+		padding: 50px 0 20px 0;}
+
+footer h4 {color: #919496;
+		   font-size: 0.8em;
+		   text-transform: uppercase;}
+
+footer .navbar-nav a {color: white;
+					  font-size: 0.8em;}
+
+footer .navbar-nav a:hover {color: #9bf0e1;
+					  		text-decoration: none;}
+
+.redes {margin: 0 5px;}
+
+/* Fim rodapé */
+					  							  		   		
